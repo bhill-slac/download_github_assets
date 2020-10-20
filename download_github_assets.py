@@ -50,7 +50,7 @@ if __name__ == '__main__':
     os.makedirs(directory, exist_ok=True)
 
     for tag in tags:
-        assets = get_assets(owner=owner, repo=repo, token=token)
+        assets = get_assets(owner=owner, repo=repo, tag=tag, token=token)
         for url, filename in assets:
             path = os.path.join(directory, filename)
             download_asset(url, filename)
