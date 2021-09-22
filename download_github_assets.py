@@ -78,7 +78,7 @@ def process_options(argv):
 def main(argv=None):
     options = process_options(argv)
 
-    token_path = os.getenv('GH_TOKEN')
+    token_path = os.getenv('GITHUB_TOKEN_PATH')
     token = None
     if token_path and os.path.isfile(token_path):
         with open(token_path) as f:
