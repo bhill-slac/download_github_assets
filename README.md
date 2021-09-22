@@ -12,6 +12,8 @@ Usage:
 Note: In order to download assets from a private github repo, you'll need a github
 personal access token.
 > https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+
+
 Create a file w/ the personal access token and make it mode 0600 so it's private.
 A good location is your ~/.ssh folder which is typically 0700 and thus private.
 Set your env variable GH_TOKEN to the path to your personal access token file.
