@@ -6,7 +6,8 @@
 
 ```
 Usage:
-  python download_github_assets.py  -a '\S*.mcs' -r slaclab/wave8 -t v2.1.1
+  python download_github_assets.py  -a '\S*.mcs' -r slaclab/wave8 -t v2.1.1 -d 2.1.1
+  python download_github_assets/download_github_assets.py  -a '\S*.mcs' -r slaclab/cameralink-gateway -t v1.15.0 -d v1.15.0
 ```
 
 Note: In order to download assets from a private github repo, you'll need a github
